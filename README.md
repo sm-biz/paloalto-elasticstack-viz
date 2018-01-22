@@ -54,7 +54,7 @@ Much of this project was created based on the following pages from awesome peopl
 This project was built on Ubuntu 16.04 LTS, using the latest Elastic Stack 6.1 (with integrated syslog server) and a PA-220 Firewall.
 nginx was used to secure authentication to Kibana via reverse-proxy
 
-For those unfamilar with any part of this technology stack, I have created a full tutorial on installing & configuring Elastic Stack, including security the platform & installing the visualisations. :blue_book: The tutorial is [available here](https://github.com/sm-biz/panw-elasticstack/wiki/Tutorial)
+For those unfamilar with any part of this technology stack, I have created a full tutorial on installing & configuring Elastic Stack, including security the platform & installing the visualisations. :blue_book: The tutorial is [available here](https://github.com/sm-biz/paloalto-elasticstack-viz/wiki)
 
 ## Existing Install
 
