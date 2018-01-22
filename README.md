@@ -64,6 +64,7 @@ Otherwise, if you're comfortable with the technology stack mentioned above, then
   - PAN-OS.conf
   - traffic_template_mapping-v1.json
   - threat_template_mapping-v1.json
+  - searches-base.json
   - visualisations-base.json
   - dashboards-base.json
 
