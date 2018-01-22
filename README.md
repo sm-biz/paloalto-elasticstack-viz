@@ -96,7 +96,8 @@ curl -XPUT http://<your-elasticsearch-server>:9200/_template/panos-threat?pretty
   - panos-system
   - panos-config
 
-- And lastly, import the visualisations files
+- And lastly, import the saved object files (in this orders)
+  - searches-base.json
   - visualisations-base.json
   - dashboards-base.json
   
