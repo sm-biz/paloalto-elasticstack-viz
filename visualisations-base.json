@@ -1,185 +1,5 @@
 [
   {
-    "_id": "f0dbab20-fdb7-11e7-be83-eddfa25a06ba",
-    "_type": "dashboard",
-    "_source": {
-      "title": "System Dashboard",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":6,\"w\":12,\"h\":6,\"i\":\"4\"},\"id\":\"19186820-fdb4-11e7-be83-eddfa25a06ba\",\"title\":\"System Log Events\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":8,\"y\":3,\"w\":4,\"h\":3,\"i\":\"5\"},\"id\":\"81c213d0-fdb4-11e7-be83-eddfa25a06ba\",\"title\":\"System Logs by Severity\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":3,\"w\":8,\"h\":3,\"i\":\"6\"},\"id\":\"4a9886a0-fdb4-11e7-be83-eddfa25a06ba\",\"title\":\"System Logs by Type\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":2,\"y\":0,\"w\":10,\"h\":3,\"i\":\"7\"},\"id\":\"52de9c60-fdb8-11e7-be83-eddfa25a06ba\",\"title\":\"Log Entries by Type\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":0,\"w\":2,\"h\":3,\"i\":\"8\"},\"id\":\"31b28690-fdb9-11e7-be83-eddfa25a06ba\",\"title\":\"Warnings & Errors\",\"type\":\"visualization\",\"version\":\"6.1.2\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":false}",
-      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"desc\"}}}},\"P-5\":{\"vis\":{\"legendOpen\":true}},\"P-7\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}}}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "1ffc31f0-fdbc-11e7-be83-eddfa25a06ba",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Config Dashboard",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"title\":\"Config Log Entries\",\"panelIndex\":\"1\",\"gridData\":{\"x\":3,\"y\":3,\"w\":9,\"h\":6,\"i\":\"1\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"22637cb0-fdb6-11e7-be83-eddfa25a06ba\"},{\"title\":\"Config Logs by Command\",\"panelIndex\":\"2\",\"gridData\":{\"x\":8,\"y\":0,\"w\":4,\"h\":3,\"i\":\"2\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"7f3d2bc0-fdb6-11e7-be83-eddfa25a06ba\"},{\"title\":\"Config Logs by User\",\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":8,\"h\":3,\"i\":\"3\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"9d677dd0-fdb6-11e7-be83-eddfa25a06ba\"},{\"title\":\"Config Changes by Panorama\",\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":6,\"w\":3,\"h\":3,\"i\":\"4\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"532947b0-fdbd-11e7-be83-eddfa25a06ba\"},{\"title\":\"Config Changes by Users\",\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":3,\"w\":3,\"h\":3,\"i\":\"5\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"fb3d3160-fdbc-11e7-be83-eddfa25a06ba\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"useMargins\":false,\"hidePanelTitles\":false}",
-      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "12342720-fdc2-11e7-be83-eddfa25a06ba",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Threat Dashboard",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"3\",\"gridData\":{\"x\":6,\"y\":3,\"w\":6,\"h\":3,\"i\":\"3\"},\"id\":\"15f85080-fdc1-11e7-be83-eddfa25a06ba\",\"title\":\"Threats by Severity\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":3,\"w\":6,\"h\":3,\"i\":\"4\"},\"id\":\"bd2d2f60-fdc1-11e7-be83-eddfa25a06ba\",\"title\":\"Threats by Type\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":3,\"i\":\"6\"},\"id\":\"3ef8c0c0-fdbf-11e7-be83-eddfa25a06ba\",\"title\":\"Threats by Severity\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":6,\"y\":0,\"w\":3,\"h\":3,\"i\":\"7\"},\"id\":\"7730faa0-fdc6-11e7-be83-eddfa25a06ba\",\"title\":\"Threats by Destination\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":9,\"y\":0,\"w\":3,\"h\":3,\"i\":\"8\"},\"id\":\"c1060a80-fdc6-11e7-be83-eddfa25a06ba\",\"title\":\"Threats by Source\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":0,\"y\":6,\"w\":12,\"h\":6,\"i\":\"9\"},\"title\":\"Threat Event Logs\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"da5dcd40-fdc3-11e7-be83-eddfa25a06ba\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":false}",
-      "uiStateJSON": "{\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-9\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"Threat Dashboard\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "Traffic-Dashboard",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Traffic Dashboard",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"5\",\"gridData\":{\"x\":6,\"y\":6,\"w\":6,\"h\":6,\"i\":\"5\"},\"title\":\"Source User & IP by Traffic\",\"id\":\"Top-10-Source-Users-slash-IP's-ampersand-Applications-(Sum-of-Bytes-Transferred)\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":0,\"y\":0,\"w\":4,\"h\":3,\"i\":\"9\"},\"title\":\"Network Traffic\",\"id\":\"f420b810-fd77-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":4,\"y\":0,\"w\":8,\"h\":3,\"i\":\"13\"},\"title\":\"Network Traffic by Zone\",\"id\":\"2e8b7470-fda2-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":0,\"y\":6,\"w\":6,\"h\":6,\"i\":\"14\"},\"title\":\"URL Categories by Traffic\",\"id\":\"6e78d6e0-fd7a-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":3,\"y\":3,\"w\":3,\"h\":3,\"i\":\"15\"},\"title\":\"URL Categories by Traffic\",\"id\":\"c3f37800-fd7a-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"16\",\"gridData\":{\"x\":0,\"y\":3,\"w\":3,\"h\":3,\"i\":\"16\"},\"title\":\"Applications by Traffic\",\"id\":\"0adfdc50-fd7a-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Traffic Desintation IP\",\"panelIndex\":\"17\",\"gridData\":{\"x\":9,\"y\":3,\"w\":3,\"h\":3,\"i\":\"17\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"448816c0-fdca-11e7-be83-eddfa25a06ba\"},{\"title\":\"Traffic Source IP\",\"panelIndex\":\"18\",\"gridData\":{\"x\":6,\"y\":3,\"w\":3,\"h\":3,\"i\":\"18\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"34e58e50-fdca-11e7-be83-eddfa25a06ba\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"useMargins\":false}",
-      "uiStateJSON": "{\"P-3\":{\"vis\":{\"colors\":{\"drop\":\"#BF1B00\"}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-14\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-16\":{\"vis\":{\"legendOpen\":true}},\"P-13\":{\"vis\":{\"colors\":{\"L3-Untrust\":\"#5195CE\",\"L3-Trust\":\"#508642\",\"WiFi-Staff\":\"#BA43A9\",\"VPN-Sites\":\"#E5AC0E\"}}}}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"default_field\":\"*\",\"query\":\"*\"}}}}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "857150a0-fdea-11e7-be83-eddfa25a06ba",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Application Dashboard",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"title\":\"Traffic by Application\",\"panelIndex\":\"1\",\"gridData\":{\"x\":3,\"y\":0,\"w\":9,\"h\":3,\"i\":\"1\"},\"id\":\"4f8f21e0-fd79-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Traffic by Application\",\"panelIndex\":\"2\",\"gridData\":{\"x\":9,\"y\":3,\"w\":3,\"h\":3,\"i\":\"2\"},\"id\":\"0adfdc50-fd7a-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Top 10 Applications\",\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":3,\"w\":6,\"h\":6,\"i\":\"3\"},\"id\":\"a83b53e0-fd79-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Unusual Applications\",\"panelIndex\":\"4\",\"gridData\":{\"x\":6,\"y\":3,\"w\":3,\"h\":3,\"i\":\"4\"},\"id\":\"Top-10-Applications-(Sum-of-Bytes-Transferred)\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Total Traffic\",\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":0,\"w\":3,\"h\":3,\"i\":\"5\"},\"id\":\"f420b810-fd77-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Applications by Protocol\",\"panelIndex\":\"6\",\"gridData\":{\"x\":6,\"y\":6,\"w\":3,\"h\":3,\"i\":\"6\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"a58750a0-fdeb-11e7-be83-eddfa25a06ba\"},{\"title\":\"Traffic by PANW Rule\",\"panelIndex\":\"7\",\"gridData\":{\"x\":9,\"y\":6,\"w\":3,\"h\":3,\"i\":\"7\"},\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"bc35e500-fdeb-11e7-be83-eddfa25a06ba\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":false}",
-      "uiStateJSON": "{\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "ddfa5fb0-fde9-11e7-be83-eddfa25a06ba",
-    "_type": "dashboard",
-    "_source": {
-      "title": "URL Dashboard",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"3\",\"gridData\":{\"x\":3,\"y\":3,\"w\":3,\"h\":3,\"i\":\"3\"},\"title\":\"URL Count by Destination\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"3f587050-fde8-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":6,\"y\":3,\"w\":3,\"h\":3,\"i\":\"4\"},\"title\":\"URL Count by User\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"e43b6ff0-fde8-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":3,\"w\":3,\"h\":3,\"i\":\"5\"},\"title\":\"URL Count by Category\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"6fee55e0-fde8-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":3,\"i\":\"6\"},\"title\":\"URL Count by User\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"ecb58ad0-fde8-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":0,\"y\":11,\"w\":3,\"h\":3,\"i\":\"7\"},\"title\":\"Blocked URLs\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"22307310-fde8-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":3,\"y\":11,\"w\":3,\"h\":3,\"i\":\"8\"},\"title\":\"Blocked URLs by Category\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"77480ca0-fde8-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":6,\"y\":11,\"w\":6,\"h\":3,\"i\":\"9\"},\"title\":\"Blocked URLs by User\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"f679d8f0-fde8-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":9,\"y\":3,\"w\":3,\"h\":3,\"i\":\"10\"},\"title\":\"Top 10 URLs\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"6d55ff20-fde5-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":0,\"y\":6,\"w\":12,\"h\":5,\"i\":\"11\"},\"title\":\"Top 10 Destinations\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"37ee9780-fde9-11e7-be83-eddfa25a06ba\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":3,\"i\":\"12\"},\"title\":\"URL Count by Source IP\",\"version\":\"6.1.2\",\"type\":\"visualization\",\"id\":\"1f9dc4d0-fde9-11e7-be83-eddfa25a06ba\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"useMargins\":false,\"hidePanelTitles\":false}",
-      "uiStateJSON": "{}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "7ef5f150-fdfd-11e7-be83-eddfa25a06ba",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Overview Dashboard",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":3,\"y\":0,\"w\":3,\"h\":3,\"i\":\"1\"},\"id\":\"4f8f21e0-fd79-11e7-be83-eddfa25a06ba\",\"title\":\"Traffic by Application\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":6,\"y\":0,\"w\":3,\"h\":3,\"i\":\"2\"},\"id\":\"c5a60560-fdfb-11e7-be83-eddfa25a06ba\",\"title\":\"URLs by Action\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":9,\"y\":0,\"w\":3,\"h\":3,\"i\":\"3\"},\"id\":\"15f85080-fdc1-11e7-be83-eddfa25a06ba\",\"title\":\"Threats by Severity\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":0,\"w\":3,\"h\":3,\"i\":\"4\"},\"id\":\"f420b810-fd77-11e7-be83-eddfa25a06ba\",\"title\":\"Total Traffic\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":6,\"y\":6,\"w\":3,\"h\":3,\"i\":\"9\"},\"id\":\"22307310-fde8-11e7-be83-eddfa25a06ba\",\"title\":\"Blocked URL Count\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":3,\"y\":6,\"w\":3,\"h\":3,\"i\":\"10\"},\"id\":\"31b28690-fdb9-11e7-be83-eddfa25a06ba\",\"title\":\"System Events - Severity Warning+\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Threat Events - Severity Warning+\",\"panelIndex\":\"12\",\"gridData\":{\"x\":9,\"y\":6,\"w\":3,\"h\":3,\"i\":\"12\"},\"id\":\"feb4b0d0-fdfc-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":0,\"y\":6,\"w\":3,\"h\":3,\"i\":\"13\"},\"id\":\"253d5860-fdfd-11e7-be83-eddfa25a06ba\",\"title\":\"Config Changes\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":9,\"y\":3,\"w\":3,\"h\":3,\"i\":\"14\"},\"id\":\"51481b10-fdfe-11e7-be83-eddfa25a06ba\",\"title\":\"Threats by Severity\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":3,\"y\":3,\"w\":3,\"h\":3,\"i\":\"15\"},\"id\":\"45646f60-fdfe-11e7-be83-eddfa25a06ba\",\"title\":\"Traffic by Application\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"16\",\"gridData\":{\"x\":0,\"y\":3,\"w\":3,\"h\":3,\"i\":\"16\"},\"id\":\"49987c20-fdfe-11e7-be83-eddfa25a06ba\",\"title\":\"Traffic by Source IP\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"17\",\"gridData\":{\"x\":6,\"y\":3,\"w\":3,\"h\":3,\"i\":\"17\"},\"id\":\"4d93ecb0-fdfe-11e7-be83-eddfa25a06ba\",\"title\":\"Blocked URLs by Category\",\"type\":\"visualization\",\"version\":\"6.1.2\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":false}",
-      "uiStateJSON": "{\"P-1\":{\"vis\":{\"legendOpen\":false}},\"P-2\":{\"vis\":{\"legendOpen\":false}},\"P-3\":{\"vis\":{\"legendOpen\":false}}}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "730758e0-fdec-11e7-be83-eddfa25a06ba",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Blocked URL Dashboard",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":9,\"y\":0,\"w\":3,\"h\":3,\"i\":\"1\"},\"id\":\"d1d807e0-fdea-11e7-be83-eddfa25a06ba\",\"title\":\"Blocked Applications by User\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":6,\"y\":0,\"w\":3,\"h\":3,\"i\":\"2\"},\"id\":\"22307310-fde8-11e7-be83-eddfa25a06ba\",\"title\":\"Blocked URLs\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":3,\"y\":0,\"w\":3,\"h\":3,\"i\":\"3\"},\"id\":\"516a2400-fde8-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":3,\"w\":5,\"h\":3,\"i\":\"4\"},\"id\":\"0f6f01f0-fde9-11e7-be83-eddfa25a06ba\",\"title\":\"Blocked URLs by Source IP\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":0,\"w\":3,\"h\":3,\"i\":\"5\"},\"id\":\"77480ca0-fde8-11e7-be83-eddfa25a06ba\",\"title\":\"Blocked URLs by Category\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":6,\"w\":5,\"h\":3,\"i\":\"6\"},\"id\":\"f679d8f0-fde8-11e7-be83-eddfa25a06ba\",\"title\":\"Blocked URLs by User\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":0,\"y\":9,\"w\":5,\"h\":3,\"i\":\"7\"},\"id\":\"40a28710-fde9-11e7-be83-eddfa25a06ba\",\"title\":\"Blocked URLs by Destination\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":5,\"y\":3,\"w\":7,\"h\":10,\"i\":\"8\"},\"id\":\"b403c1e0-fde6-11e7-be83-eddfa25a06ba\",\"title\":\"Top 100 Blocked URLs\",\"type\":\"visualization\",\"version\":\"6.1.2\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":false}",
-      "uiStateJSON": "{\"P-8\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "5c628850-fdc7-11e7-be83-eddfa25a06ba",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Threat Dashboard : Warning+",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"title\":\"Threat Event Logs - Warning+\",\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":6,\"w\":12,\"h\":8,\"i\":\"2\"},\"id\":\"21f294a0-fdc5-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Threats by Destination - Warning+\",\"panelIndex\":\"3\",\"gridData\":{\"x\":6,\"y\":0,\"w\":3,\"h\":3,\"i\":\"3\"},\"id\":\"a14efdf0-fdc6-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Threats by Severity - Warning+\",\"panelIndex\":\"4\",\"gridData\":{\"x\":6,\"y\":3,\"w\":6,\"h\":3,\"i\":\"4\"},\"id\":\"ef9f83d0-fdc6-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Threats by Source - Warning+\",\"panelIndex\":\"5\",\"gridData\":{\"x\":9,\"y\":0,\"w\":3,\"h\":3,\"i\":\"5\"},\"id\":\"b32185c0-fdc6-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"title\":\"Threats by Type - Warning+\",\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":3,\"w\":6,\"h\":3,\"i\":\"6\"},\"id\":\"daaaad60-fdc6-11e7-be83-eddfa25a06ba\",\"type\":\"visualization\",\"version\":\"6.1.2\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":3,\"i\":\"7\"},\"id\":\"3ef8c0c0-fdbf-11e7-be83-eddfa25a06ba\",\"title\":\"Threats by Severity\",\"type\":\"visualization\",\"version\":\"6.1.2\"}]",
-      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":false}",
-      "uiStateJSON": "{\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-5\":{\"vis\":{\"legendOpen\":true}}}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
     "_id": "Traffic-Visualization",
     "_type": "visualization",
     "_source": {
@@ -191,9 +11,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"default_field\":\"*\",\"query\":\"*\"}}},\"filter\":[]}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -208,9 +25,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -225,9 +39,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -242,9 +53,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"query\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\",\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -259,9 +67,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -276,9 +81,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"query\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\",\"default_field\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -293,9 +95,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\",\"default_field\":\"*\"}}},\"filter\":[]}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -310,9 +109,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -327,9 +123,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -344,9 +137,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"2b4d12e0-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -361,9 +151,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"2b4d12e0-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -378,9 +165,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"2b4d12e0-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -395,9 +179,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -412,9 +193,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -429,9 +207,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\",\"default_field\":\"*\"}}},\"filter\":[]}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -446,9 +221,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -463,9 +235,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -480,9 +249,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -497,9 +263,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"2b4d12e0-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT admin:panorama*\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -514,9 +277,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"2b4d12e0-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"admin:panorama*\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -531,9 +291,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"2b4d12e0-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -548,9 +305,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"22c7ad60-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -565,9 +319,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"22c7ad60-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -582,9 +333,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"22c7ad60-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -599,26 +347,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "d1d807e0-fdea-11e7-be83-eddfa25a06ba",
-    "_type": "visualization",
-    "_source": {
-      "title": "Traffic - Blocked Applications by User (Pie)",
-      "visState": "{\"title\":\"Traffic - Blocked Applications by User (Pie)\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Hits\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"SourceUser.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"User\"}}]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT Action:'allow'\",\"language\":\"lucene\"}}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -633,9 +361,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -650,9 +375,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -667,9 +389,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -684,9 +403,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -701,9 +417,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"22c7ad60-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -718,9 +431,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"22c7ad60-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"severity:[1 TO 4]\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -735,9 +445,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -752,9 +459,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -769,9 +473,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -786,9 +487,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -803,9 +501,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -820,9 +515,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -837,9 +529,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -854,9 +543,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -871,9 +557,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -888,9 +571,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -905,9 +585,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -922,9 +599,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -939,9 +613,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -956,9 +627,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -973,9 +641,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -990,9 +655,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1007,9 +669,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1024,9 +683,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1041,9 +697,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1058,9 +711,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1075,26 +725,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "1f9dc4d0-fde9-11e7-be83-eddfa25a06ba",
-    "_type": "visualization",
-    "_source": {
-      "title": "URL - Top 10 by Source IP (Stacked Bar)",
-      "visState": "{\"title\":\"URL - Top 10 by Source IP (Stacked Bar)\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Hits\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Hits\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Hits\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Time\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"SourceIP\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Src IP\"}}]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1109,9 +739,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1126,9 +753,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1143,9 +767,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1160,9 +781,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1177,9 +795,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1194,9 +809,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1211,9 +823,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1228,26 +837,20 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
-    "_id": "b403c1e0-fde6-11e7-be83-eddfa25a06ba",
+    "_id": "1f9dc4d0-fde9-11e7-be83-eddfa25a06ba",
     "_type": "visualization",
     "_source": {
-      "title": "URL - Top 100 Blocked URLs (Table)",
-      "visState": "{\"title\":\"URL - Top 100 Blocked URLs (Table)\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"@timestamp\",\"customLabel\":\"Timestamp\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"Miscellaneous.keyword\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"URL\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"Action.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Action\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"SourceUser.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"User\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"SourceIP.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Src IP\"}}]}",
-      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "title": "URL - Top 10 by Source IP (Stacked Bar)",
+      "visState": "{\"title\":\"URL - Top 10 by Source IP (Stacked Bar)\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Hits\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Hits\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Hits\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Time\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"SourceIP.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Src IP\"}}]}",
+      "uiStateJSON": "{}",
       "description": "",
       "version": 1,
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\",\"language\":\"lucene\"}}"
+        "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1262,9 +865,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1279,9 +879,6 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
     }
   },
   {
@@ -1296,9 +893,34 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url'\",\"language\":\"lucene\"}}"
       }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b403c1e0-fde6-11e7-be83-eddfa25a06ba",
+    "_type": "visualization",
+    "_source": {
+      "title": "URL - Top 100 Blocked URLs (Table)",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"Timestamp\",\"field\":\"@timestamp\"},\"schema\":\"metric\",\"type\":\"max\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"URL\",\"field\":\"Miscellaneous.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":100},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customLabel\":\"Action\",\"field\":\"Action.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":10},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"5\",\"params\":{\"customLabel\":\"Src IP\",\"field\":\"SourceIP.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":10},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":false,\"id\":\"4\",\"params\":{\"customLabel\":\"User\",\"field\":\"SourceUser.keyword\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":10},\"schema\":\"bucket\",\"type\":\"terms\"}],\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"title\":\"URL - Top 100 Blocked URLs (Table)\",\"type\":\"table\"}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"Threat_ContentType:'url' NOT Action:'alert'\"}}"
+      }
+    }
+  },
+  {
+    "_id": "d1d807e0-fdea-11e7-be83-eddfa25a06ba",
+    "_type": "visualization",
+    "_source": {
+      "title": "Traffic - Blocked Applications by User (Pie)",
+      "visState": "{\"title\":\"Traffic - Blocked Applications by User (Pie)\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Hits\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"SourceUser.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"User\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT Action:'alert'\",\"language\":\"lucene\"}}"
+      }
     }
   }
 ]

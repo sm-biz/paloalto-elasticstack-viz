@@ -1,0 +1,132 @@
+[
+  {
+    "_id": "95d11900-ff73-11e7-9ac0-a903174a3c8d",
+    "_type": "search",
+    "_source": {
+      "title": "Blocked URLs",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "Miscellaneous",
+        "Action",
+        "SourceIP",
+        "SourceUser"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\n  \"highlightAll\": true,\n  \"version\": true,\n  \"query\": {\n    \"language\": \"lucene\",\n    \"query\": \"Threat_ContentType:'url' NOT Action:'alert'\"\n  },\n  \"filter\": [],\n  \"size\": 10\n}"
+      }
+    }
+  },
+  {
+    "_id": "ee17eac0-ff79-11e7-9ac0-a903174a3c8d",
+    "_type": "search",
+    "_source": {
+      "title": "Config Logs",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "Device Group Hierarchy Level 4",
+        "Admin",
+        "Host",
+        "Client",
+        "Command",
+        "severity_label",
+        "Result"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"2b4d12e0-fe11-11e7-87f3-ebdc1353ce87\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f71e5530-ff7b-11e7-9ac0-a903174a3c8d",
+    "_type": "search",
+    "_source": {
+      "title": "Threat Logs",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "DeviceName",
+        "severity_label",
+        "SessionID",
+        "ThreatID",
+        "Threat_ContentType",
+        "Miscellaneous",
+        "SourceIP",
+        "SourceUser",
+        "DestinationIP",
+        "DestinationUser"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url'\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "456f93d0-ff7b-11e7-9ac0-a903174a3c8d",
+    "_type": "search",
+    "_source": {
+      "title": "System Logs",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "Device Name",
+        "Description",
+        "Content/Threat Type",
+        "Severity"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"22c7ad60-fe11-11e7-87f3-ebdc1353ce87\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "67d21be0-ff7c-11e7-9ac0-a903174a3c8d",
+    "_type": "search",
+    "_source": {
+      "title": "Threat Logs - Warning+",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "DeviceName",
+        "severity_label",
+        "SessionID",
+        "ThreatID",
+        "Threat_ContentType",
+        "Miscellaneous",
+        "SourceIP",
+        "SourceUser",
+        "DestinationIP",
+        "DestinationUser"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"1446c190-fe11-11e7-87f3-ebdc1353ce87\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"NOT ThreatID:9999 NOT Threat_ContentType:'url' NOT Severity:'low'\"},\"filter\":[]}"
+      }
+    }
+  }
+]
