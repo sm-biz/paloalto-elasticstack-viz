@@ -98,20 +98,6 @@
     }
   },
   {
-    "_id": "448816c0-fdca-11e7-be83-eddfa25a06ba",
-    "_type": "visualization",
-    "_source": {
-      "title": "Traffic - Destination IP (Pie)",
-      "visState": "{\"title\":\"Traffic - Destination IP (Pie)\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"DestinationIP.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Destination IP\"}}]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
-      }
-    }
-  },
-  {
     "_id": "49987c20-fdfe-11e7-be83-eddfa25a06ba",
     "_type": "visualization",
     "_source": {
@@ -383,20 +369,6 @@
     "_source": {
       "title": "Traffic - All by PANW Rule (Pie)",
       "visState": "{\"title\":\"Traffic - All by PANW Rule (Pie)\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"Bytes\",\"customLabel\":\"Traffic\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"RuleName.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Rule Name\"}}]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
-      }
-    }
-  },
-  {
-    "_id": "34e58e50-fdca-11e7-be83-eddfa25a06ba",
-    "_type": "visualization",
-    "_source": {
-      "title": "Traffic - Source IP (Pie)",
-      "visState": "{\"title\":\"Traffic - Source IP (Pie)\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"SourceIP.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Source IP\"}}]}",
       "uiStateJSON": "{}",
       "description": "",
       "version": 1,
@@ -920,6 +892,34 @@
       "version": 1,
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"NOT Action:'alert'\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "34e58e50-fdca-11e7-be83-eddfa25a06ba",
+    "_type": "visualization",
+    "_source": {
+      "title": "Traffic - Source IP (Pie)",
+      "visState": "{\"title\":\"Traffic - Source IP (Pie)\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"Bytes\",\"customLabel\":\"Traffic\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"SourceIP.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Source IP\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  },
+  {
+    "_id": "448816c0-fdca-11e7-be83-eddfa25a06ba",
+    "_type": "visualization",
+    "_source": {
+      "title": "Traffic - Destination IP (Pie)",
+      "visState": "{\"title\":\"Traffic - Destination IP (Pie)\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"Bytes\",\"customLabel\":\"Traffic\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"DestinationIP.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Destination IP\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"08aca200-fe11-11e7-87f3-ebdc1353ce87\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
       }
     }
   }
