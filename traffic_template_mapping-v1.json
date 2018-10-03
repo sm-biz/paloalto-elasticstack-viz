@@ -121,7 +121,7 @@
                 "type" : "text",
                 "fields" : {
                   "keyword" : {
-                    "type" : "short"
+                    "type" : "text"
                   }
                 }
               },
