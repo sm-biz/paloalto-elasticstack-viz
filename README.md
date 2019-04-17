@@ -78,8 +78,8 @@ Otherwise, if you're comfortable with the technology stack mentioned above, then
 
 - Upload the two pre-built index templates with additional GeoIP fields
 ```
-curl -XPUT http://<your-elasticsearch-server>:9200/_template/panos-traffic?pretty -H 'Content-Type: application/json' -d @traffic_template_mapping-v1.json
-curl -XPUT http://<your-elasticsearch-server>:9200/_template/panos-threat?pretty -H 'Content-Type: application/json' -d @threat_template_mapping-v1.json
+curl -XPUT http://<your-elasticsearch-server>:9200/_template/panos-traffic*?pretty -H 'Content-Type: application/json' -d @traffic_template_mapping-v1.json
+curl -XPUT http://<your-elasticsearch-server>:9200/_template/panos-threat*?pretty -H 'Content-Type: application/json' -d @threat_template_mapping-v1.json
 ```    
 - Restart Elastic Search & LogStash
 - Configure your PANW Firewall(s) to send syslog messages to your Elastic Stack server
