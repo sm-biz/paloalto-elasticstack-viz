@@ -92,10 +92,10 @@ curl -XPUT http://<your-elasticsearch-server>:9200/_template/panos-threat*?prett
   - After committing to set your syslog server, you will need to do another committ (any change) to actually send a config log message
   
 - Once the data is rolling, login to Kibana and create the 4 new index patterns, all with a Time Filter field of '@timestamp'
-  - panos-traffic
-  - panos-threat
-  - panos-system
-  - panos-config
+  - panos-traffic-*
+  - panos-threat-*
+  - panos-system-*
+  - panos-config-*
 
 - And lastly, import the saved object files (in this orders)
   - searches-base.json
